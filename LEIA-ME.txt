@@ -1,0 +1,26 @@
+SPEEDSUN — PROPOSTA DE REDESIGN
+
+COMO ABRIR
+Abra index.html num navegador moderno. HTML, CSS, JavaScript, fontes e imagens estão incluídos. Não é necessário instalar dependências nem compilar o projeto. Para alojar, publique o conteúdo desta pasta num serviço de alojamento estático com HTTPS.
+
+O QUE FUNCIONA
+Navegação por secções; menu móvel; seleção dos serviços; filtros do portfólio; detalhes dos projetos; perguntas frequentes; contactos telefónicos; ligações para mapas, loja e site original; formulário com validação, criação de email e opção de copiar a mensagem.
+
+FORMULÁRIO
+O botão prepara o pedido. Depois, o visitante escolhe Abrir email e confirma o envio no seu programa de email, ou copia a mensagem. Não existe envio automático, base de dados ou armazenamento dos dados do formulário. Para envio direto pelo site, será necessário integrar um serviço de email/backend e rever a política de privacidade da empresa.
+
+VERIFICAÇÃO
+Verificação no navegador em 320, 390, 768 e 1440 pixels de largura, sem transbordamento horizontal observado. Testados menu móvel, serviços, filtros, janelas, perguntas frequentes, campos obrigatórios e geração da mensagem de email. Verificadas âncoras internas, imagens e sintaxe JavaScript; não foram observados erros no registo do navegador. Não foram enviadas mensagens reais. Serviços externos dependem dos respetivos operadores.
+
+CONTEÚDO E IMAGENS
+Contactos e atividades: https://speedsun.pt/
+Projetos e fotografias: https://speedsun.pt/portfolio/
+Fotografia editorial da abertura: https://images.unsplash.com/photo-1508514177221-188b1cf16e9d
+Fontes Poppins e Inter: Google Fonts, incluídas localmente.
+Identidade visual redesenhada como conceito independente; validar com a empresa antes de substituir o site oficial.
+
+ESTRUTURA
+index.html — conteúdo e estrutura
+styles.css — apresentação e adaptação a ecrãs
+app.js — interações
+fonts.css e assets/ — fontes e imagens locais
